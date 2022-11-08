@@ -36,6 +36,6 @@ public class SearchController {
             JobData.findByColumnAndValue(searchType, searchTerm);
         }
         ArrayList<Job> jobs;
-        return "search.html ";
+        return "search.html";
     }
 }
