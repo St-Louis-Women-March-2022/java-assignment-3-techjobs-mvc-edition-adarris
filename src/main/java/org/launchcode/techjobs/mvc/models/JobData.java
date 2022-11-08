@@ -230,5 +230,8 @@ public class JobData {
         return allCoreCompetency;
     }
 
+    public static ArrayList<Job> getAllJobs() {
+        return allJobs;
+    }
 }
 
