@@ -231,6 +231,8 @@ public class JobData {
     }
 
     public static ArrayList<Job> getAllJobs() {
+        loadData();
+        allJobs.sort(new NameSorter());
         return allJobs;
     }
 }
